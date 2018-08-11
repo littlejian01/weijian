@@ -3,6 +3,8 @@ package com.weijian.test;
 public class HelloWorld {
 
     public static void main(String[] args) {
-        System.out.println("你好啊，idea!");
+        SayHello sayHello = new SayHello();
+        System.out.println(sayHello.sayHello("mike"));
+        System.out.println("My name is Liangweijian!");
     }
 }
